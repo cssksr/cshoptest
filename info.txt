@@ -1,0 +1,10 @@
+KsrExplorerConsoleApp의 파라미터값 구성
+
+KsrExplorerConsoleApp로 재색인시 건단위 또는 10개나 20개 단위로 삽입
+
+
+INSERT INTO mytable (col1, col2, col3) VALUES
+    (1, 2, "abc"),
+    (2, 4, "xyz"),
+    (3, 5, "aaa"),
+    (4, 7, "bbb");

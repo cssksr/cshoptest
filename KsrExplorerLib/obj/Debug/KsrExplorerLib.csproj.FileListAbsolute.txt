@@ -1,0 +1,11 @@
+H:\ksr_cshop\KsrExplorer\KsrExplorerLib\bin\Debug\KsrExplorerLib.dll
+H:\ksr_cshop\KsrExplorer\KsrExplorerLib\bin\Debug\KsrExplorerLib.pdb
+H:\ksr_cshop\KsrExplorer\KsrExplorerLib\obj\Debug\KsrExplorerLib.dll
+H:\ksr_cshop\KsrExplorer\KsrExplorerLib\obj\Debug\KsrExplorerLib.pdb
+C:\ksr_cshop\KsrExplorer\KsrExplorerLib\bin\Debug\KsrExplorerLib.dll
+C:\ksr_cshop\KsrExplorer\KsrExplorerLib\bin\Debug\KsrExplorerLib.pdb
+C:\ksr_cshop\KsrExplorer\KsrExplorerLib\obj\Debug\KsrExplorerLib.dll
+C:\ksr_cshop\KsrExplorer\KsrExplorerLib\obj\Debug\KsrExplorerLib.pdb
+C:\ksr_cshop\KsrExplorer\KsrExplorerLib\bin\Debug\System.Data.SQLite.dll
+C:\ksr_cshop\KsrExplorer\KsrExplorerLib\bin\Debug\System.Data.SQLite.pdb
+C:\ksr_cshop\KsrExplorer\KsrExplorerLib\obj\Debug\ResolveAssemblyReference.cache
