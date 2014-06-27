@@ -40,6 +40,26 @@ namespace KsrExplorerLib.config
         }
         #endregion
 
+        #region SqlInsertQueryFilePath
+        [ConfigurationProperty("SqlInsertQueryFilePath", IsRequired = true)]
+        //[IntegerValidator(MinValue = 0, MaxValue = 1000000)]
+        public string SqlInsertQueryFilePath
+        {
+            get { return (string)base["SqlInsertQueryFilePath"]; }
+            set { base["SqlInsertQueryFilePath"] = value; }
+        }
+        #endregion
+
+        #region SqlInsertQueryOneRowCount
+        [ConfigurationProperty("SqlInsertQueryOneRowCount", IsRequired = true)]
+        [IntegerValidator(MinValue = 0, MaxValue = 1000000)]
+        public int SqlInsertQueryOneRowCount
+        {
+            get { return (int)base["SqlInsertQueryOneRowCount"]; }
+            set { base["SqlInsertQueryOneRowCount"] = value; }
+        }
+        #endregion
+
         #region ExternalUrlElement
         [ConfigurationProperty("externalUrl", IsRequired = true)]
         public ExternalUrlElement ExternalUrl

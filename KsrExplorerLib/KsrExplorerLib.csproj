@@ -52,6 +52,7 @@
     <Compile Include="db\KsrExplorerEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="util\FileUtil.cs" />
+    <Compile Include="util\KsrLogFileUtil.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

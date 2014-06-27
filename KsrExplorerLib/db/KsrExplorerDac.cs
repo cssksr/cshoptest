@@ -522,5 +522,21 @@ namespace KsrExplorerLib.db
 #endif
         }
 
+        ///
+        public static int SqlStringExecuteNonQuery(string sSql)
+        {
+            SQLiteConnection m_dbConnection = new SQLiteConnection(KsrExplorerConfigUtil.DSN_KsrExplorer());
+            m_dbConnection.Open();
+            //string sql = "create table highscores (name varchar(50), score int)";
+
+            SQLiteCommand cmd = new SQLiteCommand(sSql, m_dbConnection);
+
+            // 쿼리 실행
+            int iResult = cmd.ExecuteNonQuery();
+
+            m_dbConnection.Close();
+
+            return iResult;
+        }
     }
 }
